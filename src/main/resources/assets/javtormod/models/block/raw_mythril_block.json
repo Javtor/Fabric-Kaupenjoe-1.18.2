@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "javtormod:block/raw_mythril_block"
+  }
+}
