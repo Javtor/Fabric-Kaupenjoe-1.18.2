@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "javtormod:mythril_block",
+    "javtormod:raw_mythril_block",
+    "javtormod:mythril_ore",
+    "javtormod:deepslate_mythril_ore",
+    "javtormod:netherrack_mythril_ore"
+  ]
+}
