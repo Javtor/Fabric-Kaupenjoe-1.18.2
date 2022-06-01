@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "javtormod:raw_mythril_block"
+    }
+  ],
+  "result": {
+    "item": "javtormod:raw_mythril",
+    "count": 9
+  }
+}

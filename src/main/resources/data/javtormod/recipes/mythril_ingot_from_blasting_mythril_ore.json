@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "mythril_ingot",
+  "ingredient": {
+    "item": "javtormod:mythril_ore"
+  },
+  "result": "javtormod:mythril_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}
