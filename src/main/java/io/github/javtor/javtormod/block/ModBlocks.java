@@ -1,6 +1,7 @@
 package io.github.javtor.javtormod.block;
 
 import io.github.javtor.javtormod.JavtorMod;
+import io.github.javtor.javtormod.block.custom.SpeedyBlock;
 import io.github.javtor.javtormod.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -29,6 +30,9 @@ public class ModBlocks {
 
     public static final Block RAW_MYTHRIL_BLOCK = registerBlock("raw_mythril_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.MYTHRIL);
+
+    public static final Block SPEEDY_BLOCK = registerBlock("speedy_block",
+            new SpeedyBlock(FabricBlockSettings.of(Material.STONE).strength(6f)), ModItemGroup.MYTHRIL);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
